@@ -6,8 +6,8 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT
     default y
 
-config ZMK_SPLIT_ROLE_CENTRAL
-    default y
+#config ZMK_SPLIT_ROLE_CENTRAL
+#    default y
 
 endif
 
@@ -27,6 +27,9 @@ config ZMK_KEYBOARD_NAME
     default "mtk64_FOOT"
 
 config ZMK_SPLIT
+    default y
+
+config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
