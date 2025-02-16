@@ -1,3 +1,4 @@
+#include <layouts/<layout_name>.dtsi>
 #include "mtk64.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
@@ -8,7 +9,7 @@
 / {
     chosen {
         zmk,kscan = &mock_kscan;
-        zmk,physical-layout = &physical_layout0;
+        zmk,physical-layout = &mtk64_physical_layout;
     };
 
     mock_kscan: mock_kscan_0 {
