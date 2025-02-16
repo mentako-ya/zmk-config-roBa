@@ -1,4 +1,3 @@
-#include <layouts/<layout_name>.dtsi>
 #include "mtk64.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
