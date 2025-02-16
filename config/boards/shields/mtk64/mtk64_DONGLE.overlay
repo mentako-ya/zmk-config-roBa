@@ -1,7 +1,7 @@
 #include "mtk64.dtsi"
 #include <dt-bindings/zmk/matrix_transform.h>
 
-&physical_layout0 {
+&mtk64_physical_layout {
     transform = <&default_transform>;
 };
 
